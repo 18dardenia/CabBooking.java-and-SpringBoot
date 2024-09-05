@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.CabBookingApplicationTestsVerification
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.411 s <<< FAILURE! - in com.verification.logical.CabBookingApplicationTestsVerification
+getDetailsByBookingTypeNoDetailsFound$AssertingExceptionMessage  Time elapsed: 0.022 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected org.opentest4j.AssertionFailedError to be thrown, but nothing was thrown.
+	at com.verification.logical.CabBookingApplicationTestsVerification.getDetailsByBookingTypeNoDetailsFound$AssertingExceptionMessage(CabBookingApplicationTestsVerification.java:77)
+
+getDetailsByBookingTypeNoDetailsFound$UsageOfAssertThrows  Time elapsed: 0.068 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+cabBookingService.getDetailsByBookingType(
+    <any>
+);
+-> at com.verification.logical.CabBookingApplicationTestsVerification.getDetailsByBookingTypeNoDetailsFound$UsageOfAssertThrows(CabBookingApplicationTestsVerification.java:68)
+Actually, there were zero interactions with this mock.
+
+	at com.verification.logical.CabBookingApplicationTestsVerification.getDetailsByBookingTypeNoDetailsFound$UsageOfAssertThrows(CabBookingApplicationTestsVerification.java:68)
+
+bookCabInvalidCabNoTest$UsageOfAssertThrows  Time elapsed: 0.027 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+cabBookingService.bookCab(<any>);
+-> at com.verification.logical.CabBookingApplicationTestsVerification.bookCabInvalidCabNoTest$UsageOfAssertThrows(CabBookingApplicationTestsVerification.java:42)
+Actually, there were zero interactions with this mock.
+
+	at com.verification.logical.CabBookingApplicationTestsVerification.bookCabInvalidCabNoTest$UsageOfAssertThrows(CabBookingApplicationTestsVerification.java:42)
+
+bookCabInvalidCabNoTest$AssertingExceptionMessage  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected org.opentest4j.AssertionFailedError to be thrown, but nothing was thrown.
+	at com.verification.logical.CabBookingApplicationTestsVerification.bookCabInvalidCabNoTest$AssertingExceptionMessage(CabBookingApplicationTestsVerification.java:51)
+

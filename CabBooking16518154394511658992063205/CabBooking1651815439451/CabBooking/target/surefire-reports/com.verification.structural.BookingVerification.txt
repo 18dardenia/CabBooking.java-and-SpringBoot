@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.structural.BookingVerification
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 2, Errors: 4, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.verification.structural.BookingVerification
+attributes$BookingIdAttributeGeneratedValueAnnotation  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.verification.structural.BookingVerification.attributes$BookingIdAttributeGeneratedValueAnnotation(BookingVerification.java:115)
+
+attributes$BookingIdAttributeIdAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.BookingVerification.attributes$BookingIdAttributeIdAnnotation(BookingVerification.java:104)
+
+attributes$CabAttributeJoinColumnAnnotation  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.verification.structural.BookingVerification.attributes$CabAttributeJoinColumnAnnotation(BookingVerification.java:136)
+
+annotations$TableMapping  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.verification.structural.BookingVerification.annotations$TableMapping(BookingVerification.java:57)
+
+attributes$CabAttributeOneToOneAnnotation  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.verification.structural.BookingVerification.attributes$CabAttributeOneToOneAnnotation(BookingVerification.java:126)
+
+annotations$EntityAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.BookingVerification.annotations$EntityAnnotation(BookingVerification.java:32)
+

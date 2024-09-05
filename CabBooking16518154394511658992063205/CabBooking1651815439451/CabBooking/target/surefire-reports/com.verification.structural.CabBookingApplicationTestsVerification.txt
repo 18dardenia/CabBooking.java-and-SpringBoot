@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.structural.CabBookingApplicationTestsVerification
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.verification.structural.CabBookingApplicationTestsVerification
+getDetailsByBookingTypeNoDetailsFound$TestAnnotation  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabBookingApplicationTestsVerification.getDetailsByBookingTypeNoDetailsFound$TestAnnotation(CabBookingApplicationTestsVerification.java:90)
+
+attributes$CabRepositoryAttributeMockAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabBookingApplicationTestsVerification.attributes$CabRepositoryAttributeMockAnnotation(CabBookingApplicationTestsVerification.java:58)
+
+annotations  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabBookingApplicationTestsVerification.annotations(CabBookingApplicationTestsVerification.java:28)
+
+attributes$BookingRepositoryAttributeMockAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabBookingApplicationTestsVerification.attributes$BookingRepositoryAttributeMockAnnotation(CabBookingApplicationTestsVerification.java:66)
+
+attributes$CabBookingServiceAttributeInjectMocksAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabBookingApplicationTestsVerification.attributes$CabBookingServiceAttributeInjectMocksAnnotation(CabBookingApplicationTestsVerification.java:74)
+
+bookCabInvalidCabNoTest$TestAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabBookingApplicationTestsVerification.bookCabInvalidCabNoTest$TestAnnotation(CabBookingApplicationTestsVerification.java:82)
+

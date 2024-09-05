@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.CabBookingAPIVerification
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 7.897 s <<< FAILURE! - in com.verification.logical.CabBookingAPIVerification
+bookCab  Time elapsed: 0.565 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <201> but was: <404>
+	at com.verification.logical.CabBookingAPIVerification.bookCab(CabBookingAPIVerification.java:104)
+
+getDetailsByBookingType  Time elapsed: 0.083 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <404>
+	at com.verification.logical.CabBookingAPIVerification.getDetailsByBookingType(CabBookingAPIVerification.java:71)
+

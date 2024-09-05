@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.structural.CabBookingAPIVerification
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 5, Errors: 4, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.verification.structural.CabBookingAPIVerification
+bookCab$NumberOfProjectsMentoredParameterPathVariableAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabBookingAPIVerification.bookCab$NumberOfProjectsMentoredParameterPathVariableAnnotation(CabBookingAPIVerification.java:169)
+
+getDetailsByBookingType$GetMappingAnnotation  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.verification.structural.CabBookingAPIVerification.getDetailsByBookingType$GetMappingAnnotation(CabBookingAPIVerification.java:110)
+
+bookCab$PosttMappingAnnotation  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.verification.structural.CabBookingAPIVerification.bookCab$PosttMappingAnnotation(CabBookingAPIVerification.java:155)
+
+attributes  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{environment=interface org.springframework.core.env.Environment, cabBookingService=interface com.infy.cabbooking.service.CabBookingService}> but was: <{cabBookingService=interface com.infy.cabbooking.service.CabBookingService}>
+	at com.verification.structural.CabBookingAPIVerification.attributes(CabBookingAPIVerification.java:61)
+
+annotations$RestControllerAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabBookingAPIVerification.annotations$RestControllerAnnotation(CabBookingAPIVerification.java:34)
+
+getDetailsByBookingType$BookingTypeParameterPathVariableAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabBookingAPIVerification.getDetailsByBookingType$BookingTypeParameterPathVariableAnnotation(CabBookingAPIVerification.java:124)
+
+attributes$EnvironmentAttributeAutowiredAnnotation  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchFieldException: environment
+	at com.verification.structural.CabBookingAPIVerification.attributes$EnvironmentAttributeAutowiredAnnotation(CabBookingAPIVerification.java:80)
+
+annotations$RequestMappingAnnotation  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.verification.structural.CabBookingAPIVerification.annotations$RequestMappingAnnotation(CabBookingAPIVerification.java:43)
+
+attributes$ProjectServiceAttributeAutowiredAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabBookingAPIVerification.attributes$ProjectServiceAttributeAutowiredAnnotation(CabBookingAPIVerification.java:72)
+

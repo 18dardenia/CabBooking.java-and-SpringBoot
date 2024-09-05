@@ -1,0 +1,42 @@
+-------------------------------------------------------
+Valid Data for book cab
+-------------------------------------------------------
+    {
+        "customerName": "John",
+        "phoneNo": 9658041323,
+        "bookingType": "Shared",
+        "cabDTO": {
+            "cabNo": 159723
+        }
+    }
+
+--------------------------------------------------------
+Invalid Data for book cab (Service)
+--------------------------------------------------------    
+    {
+        "customerName": "John",
+        "phoneNo": 9658041323,
+        "bookingType": "Shared",
+        "cabDTO": {
+            "cabNo": 159721
+        }
+    } 
+------------------------------------------------------
+Valid Data for get details by booking type
+------------------------------------------------------
+http://localhost:8765/api/cab/Shared
+
+
+------------------------------------------------------
+Invalid Data for get details by booking type
+------------------------------------------------------
+http://localhost:8765/api/cab/Share
+ 
+ 
+
+
+
+
+
+
+ 

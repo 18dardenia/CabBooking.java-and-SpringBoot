@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.LoggingAspectVerification
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in com.verification.logical.LoggingAspectVerification
+logging$ServiceLoggingAccuracy  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not equal but was: <0>
+	at com.verification.logical.LoggingAspectVerification.logging$ServiceLoggingAccuracy(LoggingAspectVerification.java:92)
+
+logging$ServiceLoggingPresence  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not equal but was: <0>
+	at com.verification.logical.LoggingAspectVerification.logging$ServiceLoggingPresence(LoggingAspectVerification.java:58)
+

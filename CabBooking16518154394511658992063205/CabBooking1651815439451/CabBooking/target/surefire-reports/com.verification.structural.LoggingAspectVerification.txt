@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.structural.LoggingAspectVerification
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.verification.structural.LoggingAspectVerification
+annotations$ComponentAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.LoggingAspectVerification.annotations$ComponentAnnotation(LoggingAspectVerification.java:28)
+
+logServiceException$AfterThrowingAnnotation  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.verification.structural.LoggingAspectVerification.logServiceException$AfterThrowingAnnotation(LoggingAspectVerification.java:48)
+
+annotations$AspectAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.LoggingAspectVerification.annotations$AspectAnnotation(LoggingAspectVerification.java:21)
+

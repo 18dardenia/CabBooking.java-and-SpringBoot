@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.structural.CabVerification
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.verification.structural.CabVerification
+annotations$TableMapping  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.verification.structural.CabVerification.annotations$TableMapping(CabVerification.java:49)
+
+attributes$CabNoAttributeIdAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabVerification.attributes$CabNoAttributeIdAnnotation(CabVerification.java:95)
+
+annotations$EntityAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabVerification.annotations$EntityAnnotation(CabVerification.java:26)
+

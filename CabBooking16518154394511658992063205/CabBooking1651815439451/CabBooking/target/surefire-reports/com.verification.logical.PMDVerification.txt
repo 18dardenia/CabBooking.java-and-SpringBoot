@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.PMDVerification
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.verification.logical.PMDVerification
+analyseCode  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 4 files contain violation(s)! File Name: CabBookingAPI.java - UnusedPrivateField : Avoid unused private fields such as 'cabBookingService'. | File Name: CabBookingApplicationTests.java - UnusedPrivateField : Avoid unused private fields such as 'cabRepository'. - UnusedPrivateField : Avoid unused private fields such as 'bookingRepository'. - UnusedPrivateField : Avoid unused private fields such as 'cabBookingService'. | File Name: CabBookingServiceImpl.java - UnusedPrivateField : Avoid unused private fields such as 'bookingRepository'. - UnusedPrivateField : Avoid unused private fields such as 'cabRepository'. | File Name: LoggingAspect.java - UnusedPrivateField : Avoid unused private fields such as 'LOGGER'. | ==> expected: <true> but was: <false>
+	at com.verification.logical.PMDVerification.analyseCode(PMDVerification.java:55)
+

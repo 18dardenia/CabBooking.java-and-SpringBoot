@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.structural.CabBookingServiceImplVerification
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.verification.structural.CabBookingServiceImplVerification
+annotations$ServiceAnnotation  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.verification.structural.CabBookingServiceImplVerification.annotations$ServiceAnnotation(CabBookingServiceImplVerification.java:31)
+
+attributes$BookingRepositoryAttributeAutowiredAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabBookingServiceImplVerification.attributes$BookingRepositoryAttributeAutowiredAnnotation(CabBookingServiceImplVerification.java:75)
+
+annotations$TransactionalAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabBookingServiceImplVerification.annotations$TransactionalAnnotation(CabBookingServiceImplVerification.java:46)
+
+attributes$CabRepositoryAttributeAutowiredAnnotation  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.verification.structural.CabBookingServiceImplVerification.attributes$CabRepositoryAttributeAutowiredAnnotation(CabBookingServiceImplVerification.java:83)
+
